@@ -25,3 +25,15 @@ Neste Projeto react native utilizei as bibliotecas: Redux para a centralização
 - react-native-image-picker: 4.7.1
 - react-native-blob-util: 0.13.18
 - react-navigation: 4.4.4
+
+# Permissões
+````
+```
+android\app\src\main\AndroidManifest
+  <code> <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+  </code>
+```
+````
